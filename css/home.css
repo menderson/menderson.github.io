@@ -228,26 +228,27 @@ figure.foto-legenda figcaption p{
     padding-top: 150px;
 }
 
-.contato {
+#contato {
     background-color: #4b4b4b;
     margin-top: 100px;
-
+    height: 100vh;
     text-align: center;
-    padding-bottom: 50px;
+
 }
 
-.contato h1{
+#contato h1{
     color: white;
 }
 
-.contato h2{
+#contato h2{
     color: rgb(197, 195, 195);
     margin-bottom: 100px;
 }
 
-.contato p{
+#contato p{
     color: white;
     font-size: 16px;
+
 }
 
 .redes-sociais img{
