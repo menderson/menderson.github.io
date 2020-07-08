@@ -42,13 +42,67 @@ h1{
 }
 p {
     font-size: 18px;
+    
+}
+
+.secao-perfil p{
     text-align: center;
+}
+
+.secao-perfil h1{
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+/* Conhecimentos */
+.conhecimentos {
+    max-width: 1000px;
+    margin: auto;
+    color: #4b4b4b;
+}
+
+.conhecimentos h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.conhecimentos h1{
+    padding-bottom: 0px;
+}
+
+
+.area table {
+    margin: auto;
+}
+
+.area td {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.item-conhecimento{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.item-conhecimento:hover {
+    background-color: #dbdbdb;
+}
+
+
+.item-conhecimento p{
+   
+    font-weight: 700;
+    width: 150px;
+    padding: 5px
 }
 
 /* Perfil */
 .perfil {
     display: flex;
-    max-width: 1210px;
+    max-width: 1000px;
     margin: auto;
     justify-content: center;
 }
@@ -88,6 +142,49 @@ p {
     text-align: justify;
     width: 300px;
 }
+
+/* Experiencia */
+.item-experiencia {
+    max-width: 1000px;
+    display: flex;
+    text-align: justify;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.item-experiencia img {
+    border-radius: 24px;
+}
+
+.detalhes-item-experiencia {
+    text-align: justify;
+    padding-left: 30px;
+
+}
+.item-experiencia img {
+    width: 300px;
+    height: 220px;
+}
+
+.detalhes-item-experiencia p#nome {
+    color: #ffbf0f;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.detalhes-item-experiencia p#cargo {
+    color: #ff670f;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.detalhes-item-experiencia p#cidade {
+    color: #3bad0d;
+
+}
+
 
 /* Projetos */
 
@@ -131,3 +228,39 @@ figure.foto-legenda figcaption p{
     padding-top: 150px;
 }
 
+.contato {
+    background-color: #4b4b4b;
+    margin-top: 100px;
+
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contato h1{
+    color: white;
+}
+
+.contato h2{
+    color: rgb(197, 195, 195);
+    margin-bottom: 100px;
+}
+
+.contato p{
+    color: white;
+    font-size: 16px;
+}
+
+.redes-sociais img{
+    margin-left: 10px;
+    margin-bottom: 100px;
+    padding: 8px;
+    width: 64px;
+    height: 64px;
+    background-color: #e67436;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.redes-sociais img:hover {
+    background-color: #eb9b70;
+}
