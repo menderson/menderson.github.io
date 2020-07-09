@@ -18,7 +18,7 @@
 
 .titulo-post h1 {
     color: white;
-    padding-top: 19vh;
+    padding-top: 130px;
     font-weight: 400;
 }
 .titulo-post h2 {
@@ -35,6 +35,10 @@
     color: #3f3f3f;
     line-height: 40px;
     border-bottom: #cfcfcf solid 1px;
+}
+
+.data p{
+    padding-left: 15px;
 }
 
 .corpo {
