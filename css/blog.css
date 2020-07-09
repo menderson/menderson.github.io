@@ -5,6 +5,7 @@
 .cabecalho-post  {
     font-size: 30px;
     background: url("../imgs/natureza.jpg") center no-repeat;
+    height: 45vh;
     max-height: 45vh;
     
     background-size: 100%;
@@ -14,11 +15,12 @@
     margin: auto;
     max-width: 1000px;
     padding-left: 30px;
+    background-color: violet;
 }
 
 .titulo-post h1 {
     color: white;
-    padding-top: 130px;
+
     font-weight: 400;
 }
 .titulo-post h2 {
@@ -26,7 +28,6 @@
     padding-top: 20px;
     font-weight: 400;
     font-size: 24px;
-    padding-bottom: 50px;
 }
 
 .data {
@@ -39,7 +40,6 @@
 
 .data p{
     padding-left: 30px;
-    color: violet;
 }
 
 .corpo {
