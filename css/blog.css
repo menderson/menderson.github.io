@@ -29,6 +29,14 @@
     padding-bottom: 50px;
 }
 
+.data {
+    margin: auto;
+    max-width: 1000px;
+    color: #3f3f3f;
+    line-height: 40px;
+    border-bottom: #cfcfcf solid 1px;
+}
+
 .corpo {
     padding-top: 70px;
     padding-left: 30px;
