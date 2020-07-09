@@ -39,3 +39,49 @@
     text-decoration: underline;
     transition: color 0.4s;
 }
+
+
+/* Projetos */
+
+#contato {
+    background-color: #4b4b4b;
+    margin-top: 100px;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#contato h1{
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#contato h2{
+    color: rgb(197, 195, 195);
+    margin-bottom: 100px;
+}
+
+#contato p{
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.redes-sociais img{
+    margin-left: 10px;
+    margin-bottom: 100px;
+    padding: 8px;
+    width: 64px;
+    height: 64px;
+    background-color: #e67436;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.redes-sociais img:hover {
+    background-color: #eb9b70;
+}
+

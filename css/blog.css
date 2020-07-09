@@ -1,0 +1,50 @@
+.menu {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.cabecalho-post  {
+    font-size: 30px;
+    background: url("../imgs/natureza.jpg") center no-repeat;
+    max-height: 45vh;
+    height: 45vh;
+    background-size: 100%;
+}
+
+.titulo-post {
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 30px;
+}
+
+.titulo-post h1 {
+    color: white;
+    padding-top: 19vh;
+    font-weight: 400;
+}
+.titulo-post h2 {
+    color: white;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.corpo {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    margin: auto;
+    max-width: 1000px;
+    text-align: justify;
+}
+.corpo p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: #3f3f3f;
+}
+
+.rodape {
+    background-color: black;
+    color: #d6b8a8;
+    height: 50px;
+    text-align: center;
+}
