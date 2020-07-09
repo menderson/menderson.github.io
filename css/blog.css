@@ -5,22 +5,19 @@
 .cabecalho-post  {
     font-size: 30px;
     background: url("../imgs/natureza.jpg") center no-repeat;
-    height: 45vh;
-    max-height: 45vh;
-    
+    height: 350px;
     background-size: 100%;
 }
 
 .titulo-post {
+    padding-top: 180px;
     margin: auto;
     max-width: 1000px;
     padding-left: 30px;
-    background-color: violet;
 }
 
 .titulo-post h1 {
     color: white;
-
     font-weight: 400;
 }
 .titulo-post h2 {
