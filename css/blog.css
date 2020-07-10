@@ -31,12 +31,12 @@
     margin: auto;
     max-width: 1000px;
     color: #3f3f3f;
-    line-height: 40px;
+    padding-left: 15px;
     border-bottom: #cfcfcf solid 1px;
 }
 
 .data p{
-    padding-left: 30px;
+    line-height: 40px;
 }
 
 .corpo {

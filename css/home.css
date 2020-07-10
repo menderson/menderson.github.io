@@ -4,13 +4,14 @@ body {
     background-color: #f5f5f5;
 }
 
+/* Tela de inicio */
 .inicial img{
     border-radius: 50%;
     width: 30vw;
     height: 30vw;
     border: 5px solid #dbdbdb;
 }
-/* Tela de inicio */
+
 .inicial {
     display: flex;
     background-color: black;
@@ -26,7 +27,7 @@ body {
 .nome-cargo h1 {
     color: #d6b8a8;
     font-size: 60px;
-    padding: 0;
+    
 }
 
 .nome-cargo h2 {
@@ -34,73 +35,29 @@ body {
     font-size: 35px;
 }
 
-h1{
-    padding: 50px;
-    text-align: center;
-    font-size: 50px;
-    color: #4b4b4b
-}
-p {
-    font-size: 18px;
-    
-}
-
-.secao-perfil p{
-    text-align: center;
-}
-
-.secao-perfil h1{
-    text-align: center;
-    padding-bottom: 0px;
-}
-
-/* Conhecimentos */
-.conhecimentos {
-    max-width: 1000px;
+.titulo-secao {
     margin: auto;
+    text-align: center;   
     color: #4b4b4b;
-}
-
-.conhecimentos h2{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    width: 350px;
+    font-size: 50px;
+    border-bottom: #c0bfbf solid 2px;
+    margin-top: 60px;
 }
 
-.conhecimentos h1{
-    padding-bottom: 0px;
-}
 
-
-.area table {
+.frase-secao{
     margin: auto;
-}
-
-.area td {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.item-conhecimento{
-    display: flex;
-    align-items: center;
-    transition: 0.3s;
-}
-
-.item-conhecimento:hover {
-    background-color: #dbdbdb;
-}
-
-
-.item-conhecimento p{
-   
-    font-weight: 700;
-    width: 150px;
-    padding: 5px
+    text-align: center;   
+    color: #3f3f3f;
+    margin-top: 15px;
+    
 }
 
 /* Perfil */
 .perfil {
+    padding-top:60px;
     display: flex;
     max-width: 1000px;
     margin: auto;
@@ -108,7 +65,6 @@ p {
 }
 
 .perfil h1 {
-    margin-top: 30px;
     margin-bottom: 20px;
     text-align: start;
     padding: 0px;
@@ -131,10 +87,11 @@ p {
 }
 
 .perfil img{
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
+    width: 250px;
+    height: 250px;
     border: 5px solid #dbdbdb;
 }
 
@@ -144,13 +101,17 @@ p {
 }
 
 /* Experiencia */
+
+
 .item-experiencia {
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     max-width: 1000px;
     display: flex;
     text-align: justify;
     margin: auto;
     justify-content: space-around;
-    margin-top: 50px;
     
 }
 
@@ -184,16 +145,63 @@ p {
     color: #3bad0d;
 
 }
+/* Conhecimentos */
+.conhecimentos {
+    max-width: 1000px;
+    margin: auto;
+    color: #4b4b4b;
+}
 
+.conhecimentos h2{
+    text-align: center;
+
+}
+
+.area {
+    margin-top: 60px;
+   
+}
+
+.area table {
+    padding-top: 30px;
+    margin: auto;
+}
+
+.area td {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.item-conhecimento{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.item-conhecimento:hover {
+    background-color: #dbdbdb;
+}
+
+
+.item-conhecimento p{
+    font-weight: 700;
+    width: 150px;
+    padding: 5px
+}
 
 /* Projetos */
 
 .projetos {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1210px;
+    max-width: 910px;
     margin: auto;
- 
+    margin-top:60px;
+}
+
+.projetos img {
+    height: 300px;
+    width: 300px;
 }
 
 figure.foto-legenda {
@@ -207,8 +215,8 @@ figure.foto-legenda figcaption{
     position: absolute;
     top: 0px;
     background-color: rgba(0,0,0,.7);
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     text-align: center;
     color: white;
     box-sizing: border-box;
@@ -224,7 +232,7 @@ figure.foto-legenda figcaption h2{
 }
 
 figure.foto-legenda figcaption p{
-    padding: 50px;
-    padding-top: 150px;
+    padding: 30px;
+    padding-top: 80px;
 }
 
