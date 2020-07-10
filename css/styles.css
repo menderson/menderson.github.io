@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*Menu superior */
 .menu {
     height: 50px;
     width: 100%;
@@ -41,7 +42,7 @@
 }
 
 
-/* Projetos */
+/* Contato */
 
 #contato {
     background-color: #4b4b4b;
