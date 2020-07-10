@@ -86,3 +86,24 @@
     background-color: #eb9b70;
 }
 
+[data-animacao] {
+    opacity: 0;
+    transition: 0.6s;
+}
+
+[data-animacao="left"] {
+    transform: translate3d(-250px, 0 , 0);
+}
+
+[data-animacao="right"] {
+    transform: translate3d(250px, 0 , 0);
+}
+
+[data-animacao="down"] {
+    transform: translate3d(0, 250px , 0);
+}
+
+[data-animacao].anima {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
