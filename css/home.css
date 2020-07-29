@@ -101,8 +101,6 @@ body {
 }
 
 /* Experiencia */
-
-
 .item-experiencia {
     padding-top: 60px;
     padding-left: 30px;
@@ -130,19 +128,19 @@ body {
 }
 
 .detalhes-item-experiencia p#nome {
-    color: #ffbf0f;
+    color: #5C4F48;
     font-size: 22px;
     font-weight: 700;
 }
 
 .detalhes-item-experiencia p#cargo {
-    color: #ff670f;
+    color:#998378;
     font-weight: 700;
     font-size: 20px;
 }
 
 .detalhes-item-experiencia p#cidade {
-    color: #3bad0d;
+    color: #D38378;
 
 }
 /* Conhecimentos */
@@ -233,6 +231,6 @@ figure.foto-legenda figcaption h2{
 
 figure.foto-legenda figcaption p{
     padding: 30px;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
